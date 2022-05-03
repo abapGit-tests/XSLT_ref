@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <ATTRIBUTES>
-    <XSLTDESC>ZISSUE_5001_ABAPGIT</XSLTDESC>
+    <XSLTDESC>ZTEST_CALL_METHOD</XSLTDESC>
     <LANGU>E</LANGU>
-    <DESCRIPT>test</DESCRIPT>
+    <DESCRIPT>XSLT with call method</DESCRIPT>
    </ATTRIBUTES>
   </asx:values>
  </asx:abap>

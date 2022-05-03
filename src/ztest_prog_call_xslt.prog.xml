@@ -3,18 +3,17 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <PROGDIR>
-    <NAME>ZISSUE_5001_ABAPGIT</NAME>
-    <DBAPL>S</DBAPL>
+    <NAME>ZTEST_PROG_CALL_XSLT</NAME>
     <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
     <FIXPT>X</FIXPT>
-    <LDBNAME>D$S</LDBNAME>
     <UCCHECK>X</UCCHECK>
    </PROGDIR>
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>Test</ENTRY>
-     <LENGTH>4</LENGTH>
+     <ENTRY>PROG calling XSLT</ENTRY>
+     <LENGTH>17</LENGTH>
     </item>
    </TPOOL>
   </asx:values>
