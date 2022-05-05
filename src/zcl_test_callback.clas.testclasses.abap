@@ -1,5 +1,3 @@
-*"* use this source file for your ABAP unit test classes
-
 class ltc_main definition
       for testing
       duration short
@@ -9,7 +7,7 @@ class ltc_main definition
 endclass.
 class ltc_main implementation.
   method test.
-    DATA(xml) = zcl_transfo_callback=>main( ).
+    DATA(xml) = zcl_test_callback=>main( ).
     cl_abap_unit_assert=>assert_equals( ACT = xml EXP = '<root>Hello</root>' ).
   endmethod.
 endclass.
